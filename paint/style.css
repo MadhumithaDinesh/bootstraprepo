@@ -1,0 +1,25 @@
+body{
+    background-color: whitesmoke;
+    .image-container .photo {
+        padding: 4%;
+        width:100%;
+        height: 100%;
+        object-fit: cover;
+        border: maroon;
+        background: none;
+        border-radius: 10%;
+        background-color: rgb(235, 156, 38);
+    }
+    .carousel-caption h3,
+    .carousel-caption h4,
+    .carousel-caption p {
+    color:rgb(20, 16, 6);
+    margin-block-start: 20px;
+    font-size: x-large;
+}
+.carousel-caption h2{
+    color:orange;
+    margin-block-start: 20px;
+    font-size: x-large;
+}
+}
