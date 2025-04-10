@@ -1,0 +1,100 @@
+body{
+  
+    background: linear-gradient(to right, wheat, rgb(116, 76, 2));
+    background-image: url("https://www.orientalkopi.asia/wp-content/uploads/2024/03/types-of-coffee-beans-in-malaysia-featured.jpeg");
+    background-repeat: no-repeat;  /* This prevents the image from repeating */
+    background-size: cover; /* This makes the image cover the whole background */
+    
+  }
+  
+   .mainContainer{
+    background-color: #cf3131;
+    text-align: end;
+    
+   }
+    .navbar{
+        background-color: #4d0101;
+        text-align: center;
+        padding: auto;
+        background-color: rgba(230, 99, 99, 0.555);
+        justify-content: end;
+        display: flex;
+       
+    }   
+   
+       #container{
+        margin-left: 150px;
+        display: inline-block;
+        background-color:rgba(216, 169, 169, 0.205); /* White background */
+         padding: 50px;           /* Padding around the content */
+         border-radius: 30%;      /* Rounded corners */
+         align-items: center;
+         
+        }
+       
+       #tempImage{
+        width: 300px;
+        height: 300px;
+        display: none;
+        margin: 20px;
+      }
+    
+        button{
+        padding: 20px 20px;
+        font-size: 19px;
+        cursor: pointer;
+        margin: 20px;
+        border-radius: 20%;
+        color: rgb(240, 236, 235);
+        text-align: justify;
+        background-color: #360202;
+       }
+       h1{
+        font-style: italic;
+        color: rgb(243, 239, 237);
+        margin: 10px;
+        text-align: center;
+       }
+       h4{
+        font-style: italic;
+        color: rgb(202, 55, 6);
+        margin: 10px;
+        text-align: center;
+        background-color: wheat;
+       }
+       h5{
+        font-style: italic;
+        color: rgb(245, 239, 237);
+        margin: 10px;
+        text-align: center;
+       
+       }
+  .custom-container {
+  text-align: center;
+  color: rgba(20, 6, 6, 0.1);
+  
+  }
+  .photo {
+    width: 100%;            /* Set the desired width for the photo */
+    border-radius: 100%;     /* Optional: Rounded corners for the photo */
+    align-items: flex-end;    /* optinal: end for the container*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  }
+  .card:hover {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20%;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+.card img {
+  height: 10rem; /* Adjust the height of the card image */
+  object-fit: cover; /* Maintain the aspect ratio of the image */
+}
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+    
+    
